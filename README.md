@@ -1,6 +1,6 @@
 # Linear Media Player – Spotify Clone
 
-![Screenshot of completed project](image.png)
+![Screenshot of completed project](image-2.png)
 ![Screenshot of Spotify](<Liked Songs.png>)
 
 Welcome! This is a responsive, visually polished Spotify-inspired media player built for the web. The experience includes a full desktop version and a streamlined mobile view with advanced keyboard controls and a styled playback experience. The top screenshot is the finished project, and the bottom screenshot is to show the goal that was intended to match (Spotify).

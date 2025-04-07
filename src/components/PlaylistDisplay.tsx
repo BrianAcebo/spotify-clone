@@ -208,13 +208,13 @@ const PlaylistDisplay = ({
           <table className="w-full table-fixed">
             <thead>
               <tr className="border-b border-gray-700">
-                <th className="w-3/4 px-3 py-2 text-left md:px-5">
+                <th className="w-3/4 px-3 py-2 text-left md:w-1/2 md:px-5">
                   <div className="flex items-center gap-3">
-                    <HiHashtag className="hidden size-3.5 text-gray-400 md:block" />
+                    <HiHashtag className="size-3.5 text-gray-400 max-md:hidden" />
                     <p className="text-sm font-[400] text-gray-400">Title</p>
                   </div>
                 </th>
-                <th className="hidden w-1/4 py-2 pl-2 text-left md:block">
+                <th className="w-1/4 py-2 pl-2 text-left max-md:hidden">
                   <p className="text-sm font-[400] text-gray-400">Album</p>
                 </th>
                 <th className="w-1/4 py-2 pr-5 text-right md:pr-10">
