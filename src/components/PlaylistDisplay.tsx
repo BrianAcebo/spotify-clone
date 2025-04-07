@@ -67,7 +67,7 @@ const PlaylistDisplay = ({
 
   return (
     <div
-      className={`to-bg-brand-black-600 top-0 z-10 flex w-full flex-col overflow-y-auto overscroll-contain rounded-lg bg-gradient-to-b from-indigo-900 via-indigo-900 transition-all duration-300 lg:visible lg:static lg:w-[42.5%] lg:opacity-100 ${playlistDisplayIsOpen ? "visible right-0 opacity-100" : "invisible fixed -right-[100vw] opacity-0"}`}
+      className={`to-bg-brand-black-600 no-scrollbar top-0 z-10 flex w-full flex-col overflow-x-hidden overflow-y-auto overscroll-contain rounded-lg bg-gradient-to-b from-indigo-900 via-indigo-900 transition-all duration-300 lg:visible lg:static lg:w-[42.5%] lg:opacity-100 ${playlistDisplayIsOpen ? "visible right-0 opacity-100" : "invisible fixed -right-[100vw] opacity-0"}`}
     >
       <div className="relative w-full bg-gradient-to-b from-indigo-400 via-violet-500 to-indigo-900">
         <div className="absolute inset-0 z-0 size-full bg-gradient-to-b from-black/40 to-black/45"></div>
@@ -143,7 +143,7 @@ const PlaylistDisplay = ({
                 </button>
               )}
 
-              <Tooltip position="top" text={`More options for ${selectedPlaylist.name}`}>
+              <Tooltip position="topLeft" text={`More options for ${selectedPlaylist.name}`}>
                 <button
                   title={`More options for ${selectedPlaylist.name}`}
                   className="hover:bg-brand-black-500 group flex cursor-pointer items-center justify-between gap-1 rounded-full p-2"
@@ -170,7 +170,7 @@ const PlaylistDisplay = ({
               </button>
 
               <div
-                className={`${sortMenuIsOpen ? "block" : "hidden"} bg-brand-black-500 absolute right-2 z-20 mt-2 w-fit min-w-40 items-center justify-end gap-0 rounded-md px-1 py-3 shadow transition-all md:left-2`}
+                className={`${sortMenuIsOpen ? "block" : "hidden"} bg-brand-black-500 absolute right-2 z-20 mt-2 w-fit min-w-40 items-center justify-end gap-0 rounded-md px-1 py-3 shadow transition-all`}
               >
                 <small className="px-2 text-xs text-gray-400 md:px-3">Sort by</small>
                 <ul className="mt-1 md:mt-2">
