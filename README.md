@@ -1,4 +1,50 @@
-# Linear Media Player
+# Linear Media Player – Spotify Clone
+
+![Screenshot of completed project](image.png)
+
+Welcome! This is a responsive, visually polished Spotify-inspired media player built for the web. The experience includes a full desktop version and a streamlined mobile view with advanced keyboard controls and a styled playback experience.
+
+---
+
+## Features
+
+- Responsive UI (Desktop: Spotify-style, Mobile: custom compact player)
+- Audio playback with:
+  - Play / Pause
+  - Next / Previous track
+  - Seek progress bar
+  - Volume control with visual feedback
+  - Shuffle / Repeat functionality
+- HUD overlay for volume + playback feedback
+- Mute/unmute control
+- Fully keyboard-controllable media experience
+- Global state using React Context (track selection, volume, HUD)
+- Custom-styled sliders with hover states
+- Preloaded playlist from local JSON (no API calls)
+- Built using React, Tailwind CSS, and modern TypeScript best practices
+
+---
+
+## Keyboard Shortcuts
+
+| Key          | Action                |
+| ------------ | --------------------- |
+| `Space`      | Play / Pause          |
+| `ArrowUp`    | Volume Up             |
+| `ArrowDown`  | Volume Down           |
+| `ArrowRight` | Seek forward (5 sec)  |
+| `ArrowLeft`  | Seek backward (5 sec) |
+| `M`          | Mute / Unmute         |
+| `S`          | Toggle Shuffle        |
+| `R`          | Toggle Repeat         |
+| `N`          | Next Track            |
+| `P`          | Previous Track        |
+
+Each shortcut triggers visual feedback via the HUD, mimicking a native media experience.
+
+---
+
+## Linear Media Player
 
 Hey, thanks for taking the time to work on this exercise. We're excited to see what you come up with –
 the goal is to create an audio player for playing a predefined playlist of audio files. Think of it
@@ -7,9 +53,9 @@ like a stripped-down version of Spotify or the classic Winamp.
 ### Getting started
 
 Clone this repo which was created _just for you_, make it yours and let us know once the project is complete by pushing
-your commits and replying through email. 
+your commits and replying through email.
 
-You can use `npm` to install the dependencies and run the basic React project. Feel free to add any additional libraries 
+You can use `npm` to install the dependencies and run the basic React project. Feel free to add any additional libraries
 or frameworks you need.
 
 ```bash

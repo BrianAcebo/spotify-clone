@@ -1,96 +1,148 @@
 {
   "playlists": [
     {
+      "id": "01234",
       "name": "Deep House",
-      "artist:": "Nul Tiel Records",
+      "artist": "Nul Tiel Records",
       "year": 2022,
+      "thumbnail": "https://images.unsplash.com/photo-1530014671970-707f86eb10f5?q=80&w=2940",
       "tracks": [
         {
           "name": "Breathe",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/deep-house/Breathe.mp3",
-          "duration": 265
+          "duration": 265,
+          "image": "https://fastly.picsum.photos/id/582/500/900.jpg?hmac=LT8xoOCO_4TQ3BF-VephaXmVjEdMD0Tcmox2nid4okc",
+          "isPlaying": false,
+          "playlist": "01234"
         },
         {
           "name": "Imagery Intelligence",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/deep-house/Imagery%20Intelligence.mp3",
-          "duration": 484
+          "duration": 484,
+          "image": "https://fastly.picsum.photos/id/593/500/900.jpg?hmac=r2BgDi7SZ3TkQx-OY3kRONqSo7mrbOrH8Lp7NnxiAAo",
+          "isPlaying": false,
+          "playlist": "01234"
         },
         {
           "name": "Surfing",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/deep-house/Surfing.mp3",
-          "duration": 312
+          "duration": 312,
+          "image": "https://fastly.picsum.photos/id/844/500/900.jpg?hmac=BtTWT-A5dkSwY3nT3f4HfzSZraa9dl1LS7bnBjUxUYs",
+          "isPlaying": false,
+          "playlist": "01234"
         },
         {
           "name": "Subaqueous",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/deep-house/Subaqueous.mp3",
-          "duration": 417
+          "duration": 417,
+          "image": "https://fastly.picsum.photos/id/834/500/900.jpg?hmac=n3UZDA644sjuaER6IoJ-8i_iTFmPbyICf3S9lvPIbY8",
+          "isPlaying": false,
+          "playlist": "01234"
         },
         {
           "name": "Elastic",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/deep-house/Elastic.mp3",
-          "duration": 314
+          "duration": 314,
+          "image": "https://fastly.picsum.photos/id/448/500/900.jpg?hmac=pUCnmkZduilFcxKabaJsazDkdfy95-jxXuOD8yeuSHo",
+          "isPlaying": false,
+          "playlist": "01234"
         },
         {
           "name": "Infraction",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/deep-house/Infraction.mp3",
-          "duration": 286
+          "duration": 286,
+          "image": "https://fastly.picsum.photos/id/614/500/900.jpg?hmac=vXxbCn81qr1lZwPPc8suCIAC0ye8AzGalhyj0YpfhVA",
+          "isPlaying": false,
+          "playlist": "01234"
         },
         {
           "name": "Ascent",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/deep-house/Ascent.mp3",
-          "duration": 313
+          "duration": 313,
+          "image": "https://fastly.picsum.photos/id/604/500/900.jpg?hmac=YPk-bNimahfNm381TnyedSuN73jXG-rC24Jt33ebjlE",
+          "isPlaying": false,
+          "playlist": "01234"
         },
         {
           "name": "Shake",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/deep-house/Shake.mp3",
-          "duration": 378
+          "duration": 378,
+          "image": "https://fastly.picsum.photos/id/863/500/900.jpg?hmac=zAwUNrNM4oGjPWeJTDjuvNwIobPS4OU1KdTtwsco9j4",
+          "isPlaying": false,
+          "playlist": "01234"
         },
         {
           "name": "Endless",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/deep-house/Endless.mp3",
-          "duration": 398
+          "duration": 398,
+          "image": "https://fastly.picsum.photos/id/11/500/900.jpg?hmac=NMY-EdVlHOgNPYnhsXa2GIQbMZ18BFLcYEI6A2SGYt8",
+          "isPlaying": false,
+          "playlist": "01234"
         }
       ]
     },
     {
+      "id": "56789",
       "name": "Neither and Both",
-      "artist:": "Brylie Christopher Oxley",
+      "artist": "Brylie Christopher Oxley",
       "year": 2023,
+      "thumbnail": "https://f4.bcbits.com/img/a0008622799_10.jpg",
       "tracks": [
         {
           "name": "A Gentle Fog Descends",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/neither-and-both/Breathe.mp3",
-          "duration": 430
+          "duration": 430,
+          "image": "https://fastly.picsum.photos/id/664/200/300.jpg?hmac=Ov1G0ZpIuC3e0t33HURn4DPJFK6o7bz602P6M-o_SDc",
+          "isPlaying": false,
+          "playlist": "56789"
         },
         {
           "name": "Everyting Tastes Different",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/neither-and-both/Everyting%20Tastes%20Different.mp3",
-          "duration": 351
+          "duration": 351,
+          "image": "https://fastly.picsum.photos/id/961/500/900.jpg?hmac=-q8Q4AqTHxXD4_jV9IWOZQV5jFQyWSDGlyfLRc7alLI",
+          "isPlaying": false,
+          "playlist": "56789"
         },
         {
           "name": "A Most Joyous Occasion",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/neither-and-both/A%20Most%20Joyous%20Occasion.mp3",
-          "duration": 336
+          "duration": 336,
+          "image": "https://fastly.picsum.photos/id/344/500/900.jpg?hmac=ZjnbqkayfQbHGH_iMTHJLrLTWtNBd2U241A7ndODUpQ",
+          "isPlaying": false,
+          "playlist": "56789"
         },
         {
           "name": "Ethereal Cafe",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/neither-and-both/Ethereal%20Cafe.mp3",
-          "duration": 415
+          "duration": 415,
+          "image": "https://fastly.picsum.photos/id/112/500/900.jpg?hmac=8hTUvrV8R1hTzJIpZuFn-dcpVzBrfZMvEYbg5-YYdXU",
+          "isPlaying": false,
+          "playlist": "56789"
         },
         {
           "name": "Melancholy Aurora",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/neither-and-both/Melancholy%20Aurora.mp3",
-          "duration": 302
+          "duration": 302,
+          "image": "https://fastly.picsum.photos/id/500/500/900.jpg?hmac=1EKxITHTyGu2M3jIry8OONal9pRF_Z7e_g8sSxzm6-M",
+          "isPlaying": false,
+          "playlist": "56789"
         },
         {
           "name": "Mostly Melody",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/neither-and-both/Mostly%20Melody.mp3",
-          "duration": 360
+          "duration": 360,
+          "image": "https://fastly.picsum.photos/id/442/500/900.jpg?hmac=3AFwED_yh76VdhBaoo2j7Ck6b2C3_-j2C2SZpCyRklE",
+          "isPlaying": false,
+          "playlist": "56789"
         },
         {
           "name": "The Companionship of Isolation",
           "url": "https://storage.googleapis.com/linear-worktrial/media-player/neither-and-both/The%20Companionship%20of%20Isolation.mp3",
-          "duration": 322
+          "duration": 322,
+          "image": "https://fastly.picsum.photos/id/291/500/900.jpg?hmac=M3xEHfHlZ-8WPRv7OwLJLJwbgIJ1tbQ066XlIZEHUjI",
+          "isPlaying": false,
+          "playlist": "56789"
         }
       ]
     }

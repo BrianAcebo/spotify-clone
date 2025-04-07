@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+  --font-work-sans: "Work sans", sans-serif;
+
+  /* Weights */
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+
+  /* Colors */
+  --color-brand-black-700: #000000;
+  --color-brand-black-600: #111111;
+  --color-brand-black-500: #222222;
+  --color-brand-black-400: #474747;
+  --color-brand-green: #1ed760;
+  --color-brand-orange: #ff7439;
+
+  /* Navbar & Footer Heights */
+  --spacing-navbar-height: var(--navbar-height);
+  --spacing-footer-height: var(--footer-height);
+
+  /* Height */
+  --spacing-screen-visible: calc(100vh - (var(--navbar-height) + var(--footer-height)));
+}
+
+@layer base {
+  html {
+    font-family: var(--font-work-sans);
+    overflow-x: hidden;
+    font-weight: var(--font-weight-medium);
+  }
+
+  body {
+    background-color: var(--color-brand-black-700);
+    color: var(--color-white);
+    letter-spacing: -0.02em;
+  }
+}
