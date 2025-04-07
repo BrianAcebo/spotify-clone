@@ -10,6 +10,7 @@ import { CgMiniPlayer } from "react-icons/cg";
 import { MdOpenInFull } from "react-icons/md";
 import AudioVolume from "./audio/AudioVolume";
 import { FiPlusCircle } from "react-icons/fi";
+import { PiSpeakerSimpleLowFill } from "react-icons/pi";
 
 const Footer = () => {
   const { selectedPlaylist, selectedTrack } = useAudio();
@@ -168,6 +169,18 @@ const Footer = () => {
             </Tooltip>
           </div>
         </div>
+
+        {selectedTrack.isPlaying && (
+          <div className="bg-brand-green m-1 mt-2 flex w-full items-center justify-end gap-2 rounded-sm px-2 py-0.5 md:mt-1">
+            <div className="rounded-full border-[1.5px] border-black p-[1px]">
+              <PiSpeakerSimpleLowFill className="size-2.5 text-black" />
+            </div>
+            <p className="text-xs font-semibold text-black md:text-sm">
+              Playing on Brian's Mac mini
+            </p>
+          </div>
+        )}
+        <div></div>
       </footer>
     </>
   );
